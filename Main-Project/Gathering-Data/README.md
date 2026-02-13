@@ -27,9 +27,9 @@ Inside of the `config.py` file, include the following:
 
 ```python
 config = {
-    "email": "example@example.com",
-    "password": "example",
-    "apikey": "example-apikey"
+    "email": "example@example.com", # disgenet user email (optional)
+    "password": "example",          # disgenet user password (optional)
+    "apikey": "example-apikey"      # umls apikey (required)
 }
 ```
 

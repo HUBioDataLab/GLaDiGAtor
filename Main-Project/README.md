@@ -36,9 +36,9 @@ This component gathers data from various sources using APIs and processes it for
 
 ```python
 config = {
-    "email": "example@example.com",
-    "password": "example",
-    "apikey": "example-apikey"
+    "email": "example@example.com", # disgenet user email (optional)
+    "password": "example",          # disgenet user password (optional)
+    "apikey": "example-apikey"      # umls apikey (required)
 }
 ```
 

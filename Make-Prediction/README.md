@@ -9,11 +9,13 @@ Your config.py file must be inside of the this folder.
 
 Inside of the config.py file is mention in below
 
-	config = {
-		"email":"example@example.com",
-		"password":"example",
-		"apikey":"example-apikey"
-	}
+```python
+config = {
+    "email": "example@example.com", # disgenet user email (optional)
+    "password": "example",          # disgenet user password (optional)
+    "apikey": "example-apikey"      # umls apikey (required)
+}
+```
 
 
 

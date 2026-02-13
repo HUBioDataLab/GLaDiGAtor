@@ -75,9 +75,9 @@ This step gathers information from UMLS and DisGeNET using APIs.
 
 ```python
 config = {
-    "email": "example@example.com",
-    "password": "example",
-    "apikey": "example-apikey"
+    "email": "example@example.com", # disgenet user email (optional)
+    "password": "example",          # disgenet user password (optional)
+    "apikey": "example-apikey"      # umls apikey (required)
 }
 ```
 
