@@ -36,15 +36,15 @@ Use 7-Zip application to extract all .7z files
 ### Graph_Own_*.pt
 Graph files created by the GLaDiGAtor model with different gene-disease score thresholds:
 
-- `Graph_Own_0.5.pt`: Graph with gene-disease score threshold ≥ 0.5
-- `Graph_Own_0.1.pt`: Graph with gene-disease score threshold ≥ 0.1
-- `Graph_Own_0.05.pt`: Graph with gene-disease score threshold ≥ 0.05
+- `Graph_Own_0.5.pt`: DisGeNET graph with gene-disease score threshold ≥ 0.5 (Graph 2)
+- `Graph_Own_0.1.pt`: DisGeNET graph with gene-disease score threshold ≥ 0.1 (Graph 3)
+- `Graph_Own_0.05.pt`: DisGeNET graph with gene-disease score threshold ≥ 0.05 (Graph 4)
 
 ### Graph_Comparison_*.7z
 Graph files used for comparison with other methods:
 
-- `Graph_Comparison_SkipGNN.7z`: Graph for comparison with SkipGNN method
-- `Graph_Comparison_OGB.7z`: Graph for comparison with OGB (ogbl-biokg) dataset
+- `Graph_Comparison_SkipGNN.7z`: DisGeNET graph (curated gene-disease associations) for comparison with baseline methods (Graph 5)
+- `Graph_Comparison_OGB.7z`: Open Graph Benchmark (OGB) protein-disease associations (ogbl-biokg) dataset (Graph 6)
 
 ### GeneFeatures_Uniref50.csv
 Gene features extracted using UniRef50 clustering.
