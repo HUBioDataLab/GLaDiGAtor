@@ -4,7 +4,8 @@ GLaDiGAtor is a graph neural network framework for predicting disease–gene ass
 
 <img width="1624" height="775" alt="Gladigator_workflow_figure_16 02 2026" src="https://github.com/user-attachments/assets/d259c141-88c2-44f2-ac63-1f4f69db9103" />
 
-Figure. Workflow of the proposed GLaDiGAtor model, illustrating the end-to-end pipeline from input data preparation to encoder–decoder-based graph learning and disease–gene association prediction.
+**Figure.** Workflow of the proposed GLaDiGAtor model, illustrating the end-to-end pipeline from input data preparation to encoder–decoder-based graph learning and disease–gene association prediction.
+
 
 GLaDiGAtor uses:
 
