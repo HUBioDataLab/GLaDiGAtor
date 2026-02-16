@@ -1,6 +1,12 @@
-# GLaDiGAtor: Graph Learning-based Disease Gene Association Prediction
+# GLaDiGAtor: Language-Model-Augmented Multi-Relation Graph Learning for Predicting Disease–Gene Associations
 
-GLaDiGAtor is a machine learning model that predicts gene-disease associations using protein sequences and disease definitions. The model uses:
+GLaDiGAtor is a graph neural network framework for predicting disease–gene associations from a heterogeneous biomedical graph integrating gene–gene, disease–disease, and gene–disease relations. It enriches nodes with language-model features (ProtT5 for proteins, BioBERT for disease text) to improve accuracy and generalization.
+
+<img width="1624" height="775" alt="Gladigator_workflow_figure_16 02 2026" src="https://github.com/user-attachments/assets/d259c141-88c2-44f2-ac63-1f4f69db9103" />
+
+Figure. Workflow of the proposed GLaDiGAtor model, illustrating the end-to-end pipeline from input data preparation to encoder–decoder-based graph learning and disease–gene association prediction.
+
+GLaDiGAtor uses:
 
 - **Protein sequences**: Vectorized using the [ProtT5 Model](https://www.uniprot.org/help/downloads#embeddings:~:text=protein%20per%2Dresidue-,Homo%20sapiens,-per%2Dprotein%20per), with vectors saved in `per-protein.h5`
 - **Disease definitions**: Vectorized using the [BioBert v1.1 Model](https://huggingface.co/dmis-lab/biobert-v1.1) from [DMIS-Lab](https://dmis.korea.ac.kr)
